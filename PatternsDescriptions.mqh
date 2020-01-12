@@ -67,7 +67,4 @@ void AddPatternDescriptorToArray(PATTERN_DESCRIPTOR &patternDescriptor) {
    patternsDescriptors[patternDescriptor.index] = patternDescriptor;
 }
 
-void SetPatternDescriptorToPatternInstance(PATTERN_INSTANCE &patternInstance) {
-   patternInstance.patternDescriptor = patternsDescriptors[patternInstance.index];
-}
 //+------------------------------------------------------------------+
